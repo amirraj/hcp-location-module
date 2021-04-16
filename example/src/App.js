@@ -4,7 +4,7 @@ import { ExampleComponent } from 'hcp-location-module'
 import 'hcp-location-module/dist/index.css'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return <ExampleComponent trialId="1234" />
 }
 
 export default App
