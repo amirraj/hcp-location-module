@@ -1,10 +1,11 @@
 import React from 'react'
 
-import { ExampleComponent } from 'hcp-location-module'
+import HcpDetails from 'hcp-location-module'
 import 'hcp-location-module/dist/index.css'
+import './App.scss';
 
 const App = () => {
-  return <ExampleComponent trialId="1234" />
+  return <HcpDetails trialId="1234" uri={"http://localhost:5000/graphql"} />
 }
 
 export default App

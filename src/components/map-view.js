@@ -12,7 +12,8 @@ const MapView = ({ location }) => {
     }, [location, map]);
 
     const mmarkerIcon = L.icon({
-        iconUrl: '/assets/images/marker-icon.png',
+        iconUrl: 'https://icon2.cleanpng.com/20180406/tlq/kisspng-microsoft-mappoint-pointer-computer-icons-world-ma-location-logo-5ac7cba113cc76.3616113915230432330811.jpg',
+        //iconUrl: 'marker-icon.png',
         iconSize: [41, 41],
         iconAnchor: [13, 41]
     });
